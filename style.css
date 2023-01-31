@@ -1,49 +1,62 @@
 h1 {
-    font-family: Georgia, cursive;
-    font-size: 52px;
-    color: navy;
-  
-    font-weight: 400; /* 400 or 700 available */
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    line-height: 100%;
-    letter-spacing: 0px;
-    font-style: normal;
-  }
+  font-family: Georgia, cursive;
+  font-size: 52px;
+  color: black;
+  font-weight: 400; /* 400 or 700 available */
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-style: normal;
+}
 
-  h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: navy;
-  
-    font-weight: 400; /* 400 or 700 available */
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    line-height: 100%;
-    letter-spacing: 0px;
-    font-style: normal;
-  }
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: black;
+  font-weight: 400; /* 400 or 700 available */
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-style: normal;
+}
 
-  h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #000000;
-  
-    font-weight: 400; /* 400 or 700 available */
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    line-height: 100%;
-    letter-spacing: 0px;
-    font-style: normal;
-  }
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 400; /* 400 or 700 available */
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-style: normal;
+}
 
-  images {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 20%;
-  }
+images {
+  display: block;
+}
+footer {
+  text-align: center;
+}
+
+body {
+  background: palegoldenrod;
+}
+
+.centerList ol ul {
+  display: inline-block;
+}
+
+.centerList {
+  text-align: left;
+}
+
+a:link    { color: blue;  }
+a:visited { color: purple;   }
+a:hover   { color: lightblue; }
+a:active  { color: firebrick;  }
