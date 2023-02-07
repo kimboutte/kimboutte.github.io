@@ -47,12 +47,13 @@ footer {
 }
 
 body {
-  background: palegoldenrod;
+  background: beige;
 }
 
 ol, ul {
   display: table;
   margin: 0 auto;
+  padding: auto;
 }
 
 .centerText {
