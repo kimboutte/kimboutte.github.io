@@ -37,8 +37,10 @@ h3 {
   font-style: normal;
 }
 
-images {
+img {
   display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 footer {
   text-align: center;
@@ -48,12 +50,17 @@ body {
   background: palegoldenrod;
 }
 
-.centerList ol ul {
-  display: inline-block;
+ol, ul {
+  display: table;
+  margin: 0 auto;
 }
 
-.centerList {
-  text-align: left;
+.centerText {
+  text-align: center;
+}
+
+.boldText {
+  font-weight: bold;
 }
 
 a:link    { color: blue;  }
